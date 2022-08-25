@@ -1,6 +1,6 @@
 {
   "homepage": "http://kimia-ahmadi.github.io/my-app",
-  "name": "my_app",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
