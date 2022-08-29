@@ -12,7 +12,7 @@ export const homeObjOne = {
     alt: 'cartier',
     dark: true,
     primary: true,
-    darkText: true,  
+    darkText: true, 
 };
 
 export const homeObjTwo = {

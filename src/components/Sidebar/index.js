@@ -1,10 +1,9 @@
-import React from 'react'
+import React from 'react';
 import { 
     SidebarContainer,
     Icon,
     CloseIcon,
     SidebarRoute,
-    SidebarLink,
     SideBtnWrap,
     SidebarMenu,
     SidebarWrapper
@@ -18,16 +17,44 @@ const Sidebar = ({isOpen,toggle}) => {
         </Icon>
         <SidebarWrapper>
             <SidebarMenu>
-                <SidebarLink to='about'>About</SidebarLink>
+                <a href="https://www.careers.cartier.com/en/about-cartier" style={{ 
+                    color: "white",
+                    fontSize: "22px",
+                    textDecoration: "none"
+                    }}
+                  >
+                     About
+                </a>
             </SidebarMenu>
             <SidebarMenu>
-                <SidebarLink to='products'>Product</SidebarLink>
+                <a href="https://www.cartier.com/en-lt/"style={{ 
+                    color: "white",
+                    fontSize: "22px",
+                    textDecoration: "none"
+                    }}
+                  >
+                    Product
+                </a>
             </SidebarMenu>
             <SidebarMenu>
-                <SidebarLink to='branches'>Branches</SidebarLink>
+                <a href="https://stores.cartier.com/" style={{ 
+                    color: "white",
+                    fontSize: "22px",
+                    textDecoration: "none"
+                    }}
+                  >
+                    Branches
+                </a>
             </SidebarMenu>
             <SidebarMenu>
-                <SidebarLink to='signup'>Sign up</SidebarLink>
+                <a href="https://www.cartier.com/en-lt/Account/User/Login?login_challenge=b4be12c593874e189285e2e78c0682b2" style={{ 
+                    color: "white",
+                    fontSize: "22px",
+                    textDecoration: "none"
+                    }}
+                  >
+                    Sign up
+                </a>
             </SidebarMenu>
             <SideBtnWrap>
                 <SidebarRoute to='/signin'>Sign in</SidebarRoute>

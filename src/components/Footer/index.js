@@ -21,7 +21,7 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>CUSTUMER CARE</FooterLinkTitle>
-              <a  rel="noopener noreferrer" href='/'>CALL NOW: tel:+370 521 438 62</a>
+              <a rel="noopener noreferrer" href='https://www.cartier.com/en-us/contact-customer-care' class='Links' target='_blank'>CALL NOW: tel:+370 521 438 62</a>
               <a rel="noopener noreferrer" href="https://www.cartier.com/en-lt/services/your-purchase-concierge/delivery-and-returns/delivery-lead-time-and-costs"  class='Links'  target='_blank'>DELIVERY SERVICES</a>
               <a rel="noopener noreferrer" href='https://www.cartier.com/en-lt/services/your-purchase-concierge/faq/orders-payment' class='Links'  target='_blank'>PAYMENT OPTIONS</a>
               <a rel="noopener noreferrer" href='https://www.cartier.com/en-lt/account/searchorder'class='Links'  target='_blank'>TRACK YOUR ORDER</a>

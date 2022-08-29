@@ -19,9 +19,9 @@ import {
  
 const InfoElements = ({lightBg,imgStart,lightText,
   darkText,topLine,headLine,buttonLabel,primary,dark,dark2,
-  description,img,id,alt}) => {
+  description,img,id,alt,linkBtn}) => {
   return (
-   <> 
+   <>  
     <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
             <InfoRow imgStart={imgStart}>

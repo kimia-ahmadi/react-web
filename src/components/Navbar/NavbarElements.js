@@ -33,6 +33,8 @@ export const NavLogo = styled(LinkR)`
   display: flex;
   align-items: center;
   margin-left: 24px;
+  color: ${({ navColor }) => ( navColor ? 'black' : 'white')};
+  text-decoration: none;
 `;
 
 export const MobileIcon = styled.div`
@@ -110,4 +112,6 @@ export const NavBtnLink = styled(LinkR)`
     color: black;
   }
 `
+
+
  

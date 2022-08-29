@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import {FaBars} from 'react-icons/fa';
-import { ReactComponent as CartierImg } from '../../logo/logo.svg';
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll} from 'react-scroll';
 import { 
@@ -53,8 +52,8 @@ const Navbar = ({toggle}) => {
     <IconContext.Provider value={{ color: '#a42e37' }}>
        <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-            <NavLogo to='/'onClick={toggleHome}>
-              <CartierImg />
+            <NavLogo navColor={navColor} to='/'onClick={toggleHome}>
+              cartier
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars/>
